@@ -118,6 +118,10 @@ def main(method,oracle_name):
         from main.graphinvent.run import GraphInvent_Optimizer as Optimizer
     elif args.method == "rationale_rl":
         from main.rationale_rl.run import Rationale_RL_Optimizer as Optimizer
+    elif args.method == 'es_meta':
+        from main.es_meta.run import ES_Meta_Optimizer as Optimizer
+    elif args.method == 'es_meta_collector':
+        from main.es_meta.run import ES_Meta_Collector as Optimizer
     else:
         raise ValueError("Unrecognized method name.")
 

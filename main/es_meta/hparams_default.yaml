@@ -1,0 +1,10 @@
+# GA parameters (same as graph_ga baseline)
+population_size: 120
+offspring_size: 70
+mutation_rate: 0.067
+
+# Meta-learning parameters
+meta_population_size: 10
+meta_noise_std: 0.02
+meta_elite_fraction: 0.2
+meta_lr: 0.1

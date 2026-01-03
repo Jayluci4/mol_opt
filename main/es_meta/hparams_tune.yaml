@@ -1,0 +1,26 @@
+name: es_meta
+method: bayes
+metric:
+  goal: maximize
+  name: avg_auc
+parameters:
+  population_size:
+    distribution: int_uniform
+    min: 50
+    max: 200
+  offspring_size:
+    distribution: int_uniform
+    min: 50
+    max: 300
+  mutation_rate:
+    distribution: uniform
+    min: 0
+    max: 0.1
+  meta_noise_std:
+    distribution: uniform
+    min: 0.005
+    max: 0.05
+  meta_elite_fraction:
+    distribution: uniform
+    min: 0.1
+    max: 0.4

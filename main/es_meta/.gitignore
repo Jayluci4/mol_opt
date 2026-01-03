@@ -1,0 +1,13 @@
+# Data files (too large for git)
+data/zinc_embeddings.pt
+data/experience/
+data/test_results*/
+data/benchmark*/
+data/results/
+data/*.json
+data/*.log
+data/*.pt
+
+# Python cache
+__pycache__/
+*.pyc
